@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GYMExtryme reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>GYMExtryme - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">GYM</span>Extryme</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              Today's Actions Are Tommorows Result's
+            </h1>
+            <p class="description">
+              We Are Ready To Train You Are you Ready To Become One Of Us
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">
+              Join us
+            </button>
+            <button class="btn btn__secondary">Our services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">GYM</span>Extryme
+            </h2>
+            <p>
+              Staff are friendly, welcoming, and approachable. They greet members by name and offer assistance when needed.<br>
+              <li>Cleanliness</li>
+              <li>Orientation & Guidance</li>
+              <li>Quality Amenities</li>
+              <li>Personal Touch</li>
+
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="img/about-img-1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-3.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+             In GymExtryme We Are Offering Some Of The Courses and Activities Which You Are Looking For.  
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-bodybuilding.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                  If You Are Intrested in Body Building Please Click Below.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-crossfit.jpg"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    If You Are Intrested In Cross Fit Please Click Below.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-gymnastic.jpg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    If You Are Intrested In Gymnastic Please Click Below.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-fitness.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    If You Are Intrested in Building Up Fitness Please Click Below.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-TRX.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    If You Are Intrested in TRX Please Click Below.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">TRX</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    If You Are Intrested in Boxing Please Click Below.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this summer get full Benefits for year with 20%
+              discount.
+            </h2>
+            <p class="margin-bottom">
+             Nothing Truely Grate Ever Came From A Comfort Zone 
+            </p>
+            <button class="btn btn__primary">Become a member</button>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR FITNESS COACHES
+            </h2>
+            <p>
+              A Good Coach Improves Your Game A Great Coach Improvers Your Lifes.
+            </p>
+          </header>
+
+          <article class="coache-content">
+            <div class="c-card">
+              <img
+                src="img/abhishek-cocch.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              <div class="overlay">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-instagram.svg"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">ABHISHEK YADAW</p>
+                <p class="c-title">Body Building</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/yatinder-coach.jpg"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              <div class="overlay">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-instagram.svg"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">YATHINDER SINGH</p>
+                <p class="c-title">Cardio Expert</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="img/raja-ajith.jpg"
+                alt="coache three"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+              <div class="overlay">
+                <img
+                  src="./img/logo-whatsapp.svg"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-facebook.svg"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-instagram.svg"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="./img/logo-twitter.svg"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">RAJA AJITH</p>
+                <p class="c-title">Fitness Coach</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review" id="review">
+        <div class="review-box container" data-aos="fade-up">
+          <h2 class="heading heading--2 underline margin-bottom grid-center">
+            what people say
+          </h2>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-1.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+               The Coaches Are Here Very Kind And Polite I Have Specially Trained By 
+               Abhishek Sir It Very Good Experiance .  
+              </p>
+
+              <div class="name">Prajwal Muttu</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-2.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                I Had Very Good Experiance In This Gym They Were Good Anbiance And Hospitality I Have Spent 6 Months Here <br>_ native place russia.  
+              </p>
+              <div class="name">Helina</div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">GYM</span>Extryme</h2>
+
+          <ul class="contact-data">
+            <li class="location">gymextryme pompwell manglore 575005</li>
+            <li class="phone">+91 6360932469</li>
+            <li class="email">gymextryme@email.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+           enter your email below
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+      </div>
+    </footer>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

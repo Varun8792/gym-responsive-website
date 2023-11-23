@@ -1,0 +1,70 @@
+.btn {
+  text-transform: uppercase;
+  padding: 1rem clamp(1.2rem, 3vw, 3rem);
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+
+  &__primary {
+    background-color: var(--color-yellow);
+    color: #000;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: var(--color-yellow-dark);
+    }
+  }
+
+  &__secondary {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid var(--color-yellow);
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: var(--color-yellow-light);
+      border: 1px solid var(--color-yellow-light);
+      color: #000;
+    }
+  }
+}
+
+.link-button {
+  text-decoration: none;
+  padding: 0.4rem 0;
+  color: #fff;
+  border-bottom: 2px solid var(--color-yellow);
+
+  &:hover {
+    font-style: italic;
+  }
+}
+
+.form {
+  padding: 0.8rem clamp(1rem, 3vw, 3rem);
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &__input {
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    resize: none;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
